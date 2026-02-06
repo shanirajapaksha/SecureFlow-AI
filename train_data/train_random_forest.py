@@ -276,9 +276,9 @@ def main():
     
     # Train model
     trainer.train_batch(
-        n_estimators=200,
-        max_depth=25,
-        min_samples_split=5
+        n_estimators=50,  # Reduced for faster training
+        max_depth=20,
+        min_samples_split=10
     )
     
     # Evaluate
