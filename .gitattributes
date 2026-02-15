@@ -4,3 +4,4 @@ data/raw/Week_filtered.csv filter=lfs diff=lfs merge=lfs -text
 data/cleaned/*.csv filter=lfs diff=lfs merge=lfs -text
 data/cleaned/cicids2017_cleaned_nids.csv filter=lfs diff=lfs merge=lfs -text
 data/processed/*.npy filter=lfs diff=lfs merge=lfs -text
+train_data/*.csv filter=lfs diff=lfs merge=lfs -text
