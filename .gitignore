@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+ 
+# Local SSH key files (ignore private/public keys created locally)
+shani
+shani.pub
